@@ -24,7 +24,7 @@ def grayscale_image(image):
         return None
 
 def main():
-    file_path = 'c:/Users/Dell/Desktop/images.jpg'
+    file_path = 'image.jpg'
     image = open_image(file_path)
 
     if image:
